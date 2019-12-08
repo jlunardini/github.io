@@ -57,3 +57,22 @@ a:hover {
     color:rgba(222, 168, 215, 0.968);
     text-decoration:none;
 }
+
+.display-4 {
+    font-family:'Bebas Neue',cursive;
+}
+
+.siteimage {
+    border-radius:5px;
+}
+
+.sitesheader {
+    font-family:'Bebas Neue',cursive;
+    color:rgba(255,255,255,.8);
+}
+
+.sitestext {
+    font-family:'Open Sans',sans-serif;
+    color:rgba(255,255,255,.8);
+    font-size:14px;
+}
