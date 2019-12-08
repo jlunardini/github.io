@@ -1,5 +1,5 @@
 body, html {
-height:100vh;
+height:100%;
 background-color:black;
 }
 
@@ -76,4 +76,28 @@ a:hover {
     font-family:'Open Sans',sans-serif;
     color:rgba(255,255,255,.8);
     font-size:14px;
+}
+
+.card {
+    border-width:1px;
+    background-color:transparent;
+    border-color:white;
+    border-radius:10px;
+    
+}
+
+.card-img-top {
+    border-radius:10px;
+}
+
+.card-title,.card-text {
+    font-family: 'Bebas Neue',cursive;
+    color:rgba(255,255,255,.8);
+    font-size:190%;
+}
+
+
+.footertext {
+    font-family: 'Bebas Neue',sans-serif;
+    color:rgba(255,255,255,.8);
 }
