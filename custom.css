@@ -1,8 +1,9 @@
 body, html {
 height:100vh;
-overflow:hidden;
 background-color:black;
 }
+
+
 
 .empty{
 background-image: url("images/home.png");
