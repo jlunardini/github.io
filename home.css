@@ -105,3 +105,14 @@ a:hover {
     font-family: 'Bebas Neue',sans-serif;
     color:rgba(255,255,255,.8);
 }
+
+.nametext {
+    font-family: 'Bebas Neue',sans-serif;
+    color:rgb(214, 160, 207,.7);
+    font-size:230%;
+}
+.nametext2 {
+    font-family: 'Bebas Neue',sans-serif;
+    color:rgb(214, 160, 207,.7);
+    font-size:150%;
+}
