@@ -7,6 +7,8 @@
  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
  <link rel="stylesheet" type="text/css" href="styles.css" />
    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
  </head>
 
  <body>
@@ -14,16 +16,13 @@
 <div class="py-10">
     <ul class="flex justify-center my-2 md:my-8">
         <li class="px-3 md:mx-10">
-            <a class="font-sans text-gray-400  flex-1 font-light text-xl md:text-3xl" href="/">Home</a>
+            <a class=" text-gray-400 flex-1 font-light text-xl md:text-3xl" href="#sites1">Sites</a>
         </li>
         <li class="px-3 md:mx-10">
-            <a class="font-sans text-gray-400 flex-1 font-light text-xl md:text-3xl" href="#sites">Sites</a>
+            <a class=" text-gray-400 font-light text-xl md:text-3xl flex-1" href="#pics">Pics</a>
         </li>
         <li class="px-3 md:mx-10">
-            <a class="font-sans text-gray-400 font-light text-xl md:text-3xl flex-1" href="/#pics">Pics</a>
-        </li>
-        <li class="px-3 md:mx-10">
-            <a class="font-sans text-gray-400 flex-1 font-light text-xl md:text-3xl" href="/#sounds">Sounds</a>
+            <a class=" text-gray-400 flex-1 font-light text-xl md:text-3xl" href="/#sounds">Sounds</a>
         </li> 
     </ul>
 </div>
@@ -88,11 +87,11 @@
             
 </section>
 
-<section id="sites1">
+<section id="sites1" class="border-0 border-r-8">
         <div class="grid grid-cols-2">
             <div id="breakup1" class="w-50"></div>
             <div id="breakup2" class="w-70">
-                <h2 class="font-sans text-right text-2xl md:text-3xl text-gray-400 pr-16 py-2">Sites</h2>
+                <h2 class=" text-right text-2xl md:text-4xl text-gray-400 pr-16 py-2">Sites</h2>
             </div>
         </div>
 
@@ -126,9 +125,62 @@
                 <img src="images/icons/5.png" class="h-20 px-5 md:h-24 my-2" data-aos-offset="160" data-aos="fade">
                 <img src="images/icons/6.png" class="h-20 px-5 md:h-24 my-2" data-aos-offset="160" data-aos="fade">
             </div>
-            <br></br>
+           
 </section>
-<section id="sites2"></section>
+<section id="sites2" class="border-0 border-r-8 pt-16">
+    <div class="flex justify-center">
+        <h2 data-aos="fade-in" class="text-3xl md:text-4xl text-gray-500 font-light">Bandage Solutions</h2>
+        </div>
+
+        <div class="flex justify-center mt-10 px-5 md:px-64">
+            <img data-aos="fade-in" id="site1" class="h-56 md:h-full" src="images/home/site2.svg">
+        </div>
+        
+        <div class="flex justify-center mt-10 text-center px-10 pb-10">
+            <h2  class="text-l md:text-xl text-gray-500 font-light">This site favored the use of less complex tools.  Bootstrap was used for Grid, the rest is pure CSS and HTML</h2>
+        </div>
+
+        <div class="flex justify-center mt-5">
+            <img src="images/home/bs.png"  data-aos="fade" class="h-16 md:h-20 px-5">
+            <img src="images/home/css.png" data-aos-offset="180"  data-aos="fade" class="h-16 md:h-20 px-5">
+        </div>
+
+        <div class="flex justify-center mt-16 text-center px-10">
+            <h2  class="block text-l md:text-xl text-gray-500 font-light">In this case, the client requested custom vector illustrations.</h2>
+        </div>
+
+        
+        <br></br>
+</section>
+
+<section id="pics" class="border-0 border-r-8 pt-16 color-black text-black">
+    <div class="flex justify-center">
+        <h2 data-aos="fade-in" class="text-3xl md:text-4xl text-gray-500 font-light">Selected Works of Photography</h2>
+        </div>
+
+        <div class="flex justify-center">
+            <div class="row"> 
+                <div class="column">
+                  <img src="wedding.jpg">
+                  <img src="rocks.jpg">
+                  <img src="falls2.jpg">
+                  <img src="paris.jpg">
+                  <img src="nature.jpg">
+                  <img src="mist.jpg">
+                  <img src="paris.jpg">
+                </div>
+                <div class="column">
+                  <img src="underwater.jpg">
+                  <img src="ocean.jpg">
+                  <img src="wedding.jpg">
+                  <img src="mountainskies.jpg">
+                  <img src="rocks.jpg">
+                  <img src="underwater.jpg">
+                </div> 
+        </div>
+        
+        
+</section>
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
